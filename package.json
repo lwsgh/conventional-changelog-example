@@ -7,7 +7,7 @@
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
     "changelog:console": "conventional-changelog -p angular -i CHANGELOG.md -w",
     "changelog:reset": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
-    "changelog:version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md && git commit -m 'docs: 更改CHANGELOG.md'"
+    "changelog:version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md && git commit -m \"docs: 更改CHANGELOG.md\""
   },
   "keywords": [],
   "author": "",
