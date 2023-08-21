@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
-    "changelog:init": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
+    "changelog:console": "conventional-changelog -p angular -i CHANGELOG.md -w",
+    "changelog:reset": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
     "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git commit -m 'docs: 更改CHANGELOG.md'"
   },
   "keywords": [],
